@@ -28,11 +28,11 @@ const isMobile = {
 if (isMobile.any()) {
 	
 	document.querySelector("body").classList.add("_touch")
-	const navItem = document.querySelectorAll(".header-navigation__item");
+	const navItem = document.querySelectorAll("._icon-arrow-down");
 	if (navItem.length > 0) {
 		navItem.forEach(el => {
 			el.addEventListener('click', e => {
-				el.classList.toggle('_hover')
+				el.parentElement.classList.toggle('_hover')
 			})
 		});
 	}
