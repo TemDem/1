@@ -1496,6 +1496,10 @@ body {
     color: #2e3844;
   }
 
+  ._icon-arrow-down {
+    font-size: 8px;
+  }
+
   .icons-burger {
     margin: 5px;
     display: block;
